@@ -6,7 +6,7 @@ This repository contains the prototype development plan for our Engineering Desi
 ## Task Distribution  
 Based on our last meeting and considering each other's strengths, the following tasks have been assigned:
 
-- **Student A**: Code : Viewing Storedd and Expired Items, Generating Notifications , Interacting with the ChatBot 
+- **Student A**: Code : Viewing Stored and Expired Items, Generating Notifications , Interacting with the ChatBot 
 - **Student B**: _Task 1, Task 2, Task 3_
 - **Student C**: _Task 1, Task 2, Task 3_
 - **Student D**: _Task 1, Task 2, Task 3_
