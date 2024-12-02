@@ -7,7 +7,7 @@ This repository contains the prototype development plan for our Engineering Desi
 Based on our last meeting and considering each other's strengths, the following tasks have been assigned:
 
 - **Student A**: Code : Viewing Stored and Expired Items, Generating Notifications , Interacting with the ChatBot 
-- **Student B**: _Task 1, Task 2, Task 3_
+- **Student B**: Code : Extracting ingredients' expiry dates from photos using OpenCV, Managing ingredients based on expiry date    Write: Write report with Maryam
 - **Student C**: _Task 1, Task 2, Task 3_
 - **Student D**: _Task 1, Task 2, Task 3_
 
