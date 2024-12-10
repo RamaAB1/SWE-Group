@@ -1,10 +1,7 @@
 import pandas as pd
 from groq import Groq
 
-zip_path = r"C:\Users\ramaa\Downloads\recipes.csv.zip" # Change based on the directory where recipes.csv is saved
-extract_to = "./recipes_data" 
-
-dataset_path = "./recipes_data/recipes.csv"
+dataset_path = "./recipes.csv" # Change based on the directory where recipes.csv is saved
 try:
     df = pd.read_csv(dataset_path)
     
