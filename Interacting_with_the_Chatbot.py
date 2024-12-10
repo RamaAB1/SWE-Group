@@ -1,56 +1,32 @@
+def chatbot():
+    print("Welcome to the Recipe Suggestion Chatbot!")
+    print("Please select an option:")
+    print("1. view ingredient list")
+    print("2. View expired items")
+    print("3. Suggest recipes")
+    print("4. Chat with the Chat bot ")
+    print("5. Exit")
 
-# example ingredients and recipes
-ingredients = [
-    {"name": "Milk", "expiry_date": "2024-12-01"},
-    {"name": "Eggs", "expiry_date": "2024-12-03"},
-    {"name": "Cheese", "expiry_date": "2024-12-05"},
-]
-
-recipes = {
-    "Omelette": ["Eggs", "Milk", "Cheese"],
-    "Pancakes": ["Eggs", "Milk"],
-    "Cheese Toast": ["Cheese", "Bread"],
-}
-
-
-# Chatbot interaction
-def chatbot_interaction(user_input):
-    user_input = user_input.lower()
-
-    if "ingredients" in user_input:
-        if not ingredients:
-            return "You have no ingredients stored."
-        return "Here are your ingredients:\n" + "\n".join(
-            [f"{item['name']} (Expires on: {item['expiry_date']})" for item in ingredients])
-
-    if "do i have" in user_input: #change
-        ingredient_name = user_input.replace("do i have", "").strip().capitalize()
-        for item in ingredients:
-            if item["name"].lower() == ingredient_name.lower():
-                return f"Yes, you have {ingredient_name} (Expires on: {item['expiry_date']})."
-        return f"No, you don't have {ingredient_name}."
-
-    if "recipe" in user_input:
-        available_ingredients = [item["name"] for item in ingredients]
-        suggested_recipes = [
-            recipe for recipe, req_ingredients in recipes.items()
-            if all(ingredient in available_ingredients for ingredient in req_ingredients)
-        ]
-        if not suggested_recipes:
-            return "Sorry, no recipes can be made with your current ingredients."
-        return "Here are some recipes you can make:\n" + "\n".join(suggested_recipes)
-
-    return "I'm sorry, I don't understand that. You can ask about ingredients, recipes, or check if you have a specific ingredient."
-
-
-# Example
-if __name__ == "__main__":
-    print("Chatbot is ready! Type 'exit' to stop.")
     while True:
-        user_input = input("You: ")
-        if user_input.lower() == "exit":
-            print("Goodbye!")
+        choice = input("Enter your choice (1-5): ")
+        if choice == "1":
+            print(" Here are you ingredient list...")
+           # Call the function to display the ingredient list
+        elif choice == "2":
+            print("Here are your expired items...")
+            # Call the function to suggest recipes
+        elif choice == "3":
+            print("Here are some recipe suggestions...")
+            # Call the function to display the expired items
+        elif choice == "4":
+            print("Chat with the Chat bot")
+            # Call the function to run the chatbot
+        elif choice == "5":
+            print ("Exit")
             break
-        response = chatbot_interaction(user_input)
-        print(f"Chatbot: {response}")
+        else:
+            print("Invalid choice. Please try again.")
+
+# Run the chatbot
+chatbot()
 
