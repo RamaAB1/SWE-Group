@@ -8,7 +8,7 @@ Based on our last meeting and considering each other's strengths, the following 
 
 - **Tarfah**: Code : Viewing Stored and Expired Items, Generating Notifications , Interacting with the ChatBot 
 - **Zainab**: Code : Extracting ingredients' expiry dates from photos using OpenCV, Managing ingredients based on expiry date    Write: Write report with Maryam
-- **Maryam**: code: Fetching and suggesting recipes, displaying recipes suggestions, write: Write report with Zainab
+- **Maryam**: code: Fetching and suggesting recipes, displaying recipes suggestions, write: Write report with Zainab, design the user interface  
 - **Rama**: _Task 1, Task 2, Task 3_
 
 - **Collaborative Task**:  
