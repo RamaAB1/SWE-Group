@@ -9,7 +9,7 @@ Based on our last meeting and considering each other's strengths, the following 
 - **Tarfah**: *Code*: Viewing Stored and Expired Items, Generating Notifications , Interacting with the ChatBot. *Design*: Implement user interface design. 
 - **Zainab**: *Code*: Extracting ingredients' expiry dates from photos using OpenCV, Managing ingredients based on expiry date. *Write*: Write report with Maryam.
 - **Maryam**: *Code*: Fetching and suggesting recipes, displaying recipes suggestions. *Write*: Write report with Zainab. *Design*:Design the user interface.  
-- **Rama**: _Task 1, Task 2, Task 3_
+- **Rama**:   *Code*: Adding ingredients to the ingredient list via barcode scanning using pyzbar library and manually. Interacting with the chatbot and program it to asnwer food related questions.
 
 - **Collaborative Task**:  
   Work together as a team to complete the project report and merge codes, ensuring all contributions are included and aligned with the prototype.
