@@ -1,14 +1,13 @@
 import pandas as pd
 from groq import Groq
 
-zip_path = r"C:\Users\ramaa\Downloads\recipes.csv.zip" 
+zip_path = r"C:\Users\ramaa\Downloads\recipes.csv.zip" # Change based on the directory where recipes.csv is saved
 extract_to = "./recipes_data" 
 
 dataset_path = "./recipes_data/recipes.csv"
 try:
     df = pd.read_csv(dataset_path)
-    # df['text'] = df['Name'] + " " + df['RecipeIngredientParts']
-
+    
 except Exception as e:
     print(f"An error occurred while loading the dataset: {e}")
 
@@ -26,7 +25,7 @@ def ask_groq(question):
                 {
                     "role": "user",
                     "content": 
-                    f"Query: {question}\nIf the user asks for a recipe, look at these and suggest two from the list if they are good match calling the first 10 elements in {df} list"
+                    f"Query: {question}\nIf the user asks for a recipe, first check the first 10 elements in {df} list if you find similarity between the search and one or two of the elements then give the recipes name ingredients and time taken to cook. However, if you couldn't find a match answer from your own knowledge"
                     f"if the recipes are not relevant then use your knowledge"
                       f"List recipe name, ingredients, instructions, estimate cooking time only.",
                 }
@@ -45,7 +44,6 @@ def chat(dataframe):
     while True:
         user_input = input("You: ")
 
-        # Exit condition
         if user_input.lower() == "exit":
             print("Goodbye! Have a great day!")
             break
