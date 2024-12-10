@@ -6,10 +6,10 @@ This repository contains the prototype development plan for our Engineering Desi
 ## Task Distribution  
 Based on our last meeting and considering each other's strengths, the following tasks have been assigned:
 
-- **Student A**: Code : Viewing Stored and Expired Items, Generating Notifications , Interacting with the ChatBot 
-- **Student B**: Code : Extracting ingredients' expiry dates from photos using OpenCV, Managing ingredients based on expiry date    Write: Write report with Maryam
-- **Student C**: _Task 1, Task 2, Task 3_
-- **Student D**: _Task 1, Task 2, Task 3_
+- **Tarfah**: Code : Viewing Stored and Expired Items, Generating Notifications , Interacting with the ChatBot 
+- **Zainab**: Code : Extracting ingredients' expiry dates from photos using OpenCV, Managing ingredients based on expiry date    Write: Write report with Maryam
+- **Maryam**: code: Fetching and suggesting recipes, displaying recipes suggestions, write: Write report with Zainab
+- **Rama**: _Task 1, Task 2, Task 3_
 
 - **Collaborative Task**:  
   Work together as a team to complete the project report and merge codes, ensuring all contributions are included and aligned with the prototype.
