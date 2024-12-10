@@ -6,9 +6,9 @@ This repository contains the prototype development plan for our Engineering Desi
 ## Task Distribution  
 Based on our last meeting and considering each other's strengths, the following tasks have been assigned:
 
-- **Tarfah**: Code : Viewing Stored and Expired Items, Generating Notifications , Interacting with the ChatBot 
-- **Zainab**: Code : Extracting ingredients' expiry dates from photos using OpenCV, Managing ingredients based on expiry date    Write: Write report with Maryam
-- **Maryam**: code: Fetching and suggesting recipes, displaying recipes suggestions, write: Write report with Zainab, design the user interface  
+- **Tarfah**: Code : Viewing Stored and Expired Items, Generating Notifications , Interacting with the ChatBot and implement user interface design 
+- **Zainab**: Code : Extracting ingredients' expiry dates from photos using OpenCV, Managing ingredients based on expiry date and Write: Write report with Maryam
+- **Maryam**: code: Fetching and suggesting recipes, displaying recipes suggestions, design the user interface and write: Write report with Zainab  
 - **Rama**: _Task 1, Task 2, Task 3_
 
 - **Collaborative Task**:  
