@@ -13,19 +13,11 @@ def getDate (path):
         for (bbox, txt, prob) in result:
             text += (txt + " ")
 
-        # print(text)
-
         dates = list(datefinder.find_dates(text))
-
-        # if len(dates) == 0:
-            # print("Date wasn't recognised, please add the date manually")
 
         if len(dates) != 0:
             date = dates[0].date()
-            # print(date)
             return str(date)
 
     except:
         return("Image not found")
-
-# print("Expiry date: " + getDate("date1.jpeg"))
