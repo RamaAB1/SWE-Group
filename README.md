@@ -3,6 +3,8 @@
 ## Purpose  
 This repository contains the prototype development plan for our Engineering Design Review (EDR) project.
 
+# Testing CI Workflow
+
 ## Task Distribution  
 Based on our last meeting and considering each other's strengths, the following tasks have been assigned:
 
