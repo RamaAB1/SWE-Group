@@ -1,0 +1,29 @@
+import unittest
+
+from barcodeScanner import addManually,LinkedList
+
+llist = LinkedList()
+new_ingredient_name, new_date = addManually("Milk", "2024/12/17")
+llist.add_ingredient (new_ingredient_name, new_date)
+llist.printList()
+
+class Test(unittest.TestCase):
+        
+    def test_list_output(self):
+        """
+        Test the output format of the main function.
+        """
+        ingredients = generate_ingredients(5)
+        result = view_stored_items()
+        expected_output = (
+            "Ingredient list:\nCarrot 2025-1-1\n\n"
+            "Expired list:\nApple 2024-11-1\nBanana 2024-12-1\nEgg 2024-11-11\n"
+            "Flour 2024-11-24\nHoney 2024-11-30\nChocolate 2024-12-2\n"
+        )
+        
+        # print(result == output)
+        
+        self.assertEqual(expected_output, result)
+
+if __name__ == '__main__':
+    unittest.main()
