@@ -10,7 +10,7 @@ def suggest():
     messages=[
         {
             "role": "user",
-            "content": f"go to {ingredients} and find one suitable recipes, give me the time taken, ingredients",
+            "content": f"go to {ingredients} and find three suitable recipes, give me the time taken, ingredients",
         }
     ],
     model="llama3-8b-81 92",
