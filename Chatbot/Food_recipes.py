@@ -1,7 +1,7 @@
 import pandas as pd
 from groq import Groq
 
-dataset_path = "./recipes.csv" # Change based on the directory where recipes.csv is saved
+dataset_path = "Chatbot/recipes.csv" 
 try:
     df = pd.read_csv(dataset_path)
     
