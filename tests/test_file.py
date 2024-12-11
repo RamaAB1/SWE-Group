@@ -1,6 +1,6 @@
 import unittest
 
-from VIEW_STORED_ITEMS_NOTIFICATIONS import main
+from VIEW_STORED_EXPIRED_ITEMS_NOTIFICATIONS import main
 
 
 class TestSum(unittest.TestCase):
