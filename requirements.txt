@@ -1,0 +1,12 @@
+opencv-python==4.10.0.84
+opencv-python-headless==4.10.0.84
+torch==2.5.1
+torchaudio==2.5.1
+torchvision==0.20.1
+easyocr==1.7.2
+datefinder==0.7.3
+openai==1.57.2
+requests==2.32.3
+groq==0.13.0
+pandas==2.2.3
+pyzbar==0.1.9
