@@ -1,8 +1,9 @@
 import os
 
 from groq import Groq
+from Manage import get_name
 
-ingredients = ["rice","chicken","tomato"]
+ingredients = get_name()
 
 def suggest():
     client = Groq(api_key="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")
@@ -22,4 +23,5 @@ def suggest():
     except Exception as e:
         return f"An error occurred while using the Groq API: {e}"
 
+print(suggest())
 
