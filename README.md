@@ -16,7 +16,8 @@ Based on our last meeting and considering each other's strengths, the following 
 
   ## Timeline  
 
-- **Regular Check-ins**:  
+- **Regular Check-ins**:
+  Status of the tasks will be traked using "Monday Work Management" tool.  
   Meetings will be held every other day (online or in person) to ensure progress is on track.
 
 - **Milestone Goal**:  
